@@ -1,0 +1,84 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:1:11-69
+uses-permission#pleos.car.permission.CAR_DOORS
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:2:5-70
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:2:22-67
+uses-permission#pleos.car.permission.CAR_INFO
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:3:5-69
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:3:22-66
+uses-permission#pleos.car.permission.CAR_WINDOWS
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:4:5-72
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:4:22-69
+uses-permission#pleos.car.permission.CAR_CLIMATE
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:5:22-69
+uses-permission#pleos.car.permission.CAR_DRIVE
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:6:22-67
+uses-permission#pleos.car.permission.CAR_ENERGY
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:7:22-68
+uses-permission#pleos.car.permission.CAR_LIGHTS
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:8:22-68
+uses-permission#pleos.car.permission.CAR_MIRRORS
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:9:22-69
+uses-permission#pleos.car.permission.CAR_SAFETY
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:10:22-68
+uses-permission#pleos.car.permission.CAR_SEATS
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:11:22-67
+uses-permission#pleos.car.permission.CAR_TOLL
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:12:22-66
+application
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:14:5-29:19
+meta-data#androidx.car.app.minCarApiLevel
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:16:9-18:33
+	android:value
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:18:13-30
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:17:13-59
+service#com.example.hyundaipleos.shared.MyCarAppService
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:20:9-28:19
+	android:exported
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:21:13-75
+intent-filter#action:name:androidx.car.app.CarAppService+category:name:androidx.car.app.category.POI
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:23:13-27:29
+action#androidx.car.app.CarAppService
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:24:17-73
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:24:25-70
+category#androidx.car.app.category.POI
+ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:26:17-74
+	android:name
+		ADDED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:26:27-71
+uses-sdk
+INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml

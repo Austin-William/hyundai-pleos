@@ -37,7 +37,7 @@
       </SelectionState>
       <SelectionState runConfigName="main">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-11-05T21:56:16.530535200Z">
+        <DropdownSelection timestamp="2026-11-06T19:23:35.535346700Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Austin\.android\avd\Pleos_Connect_v2.1.0.avd" />

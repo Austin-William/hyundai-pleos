@@ -1,0 +1,105 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :automotive:preBuild UP-TO-DATE
+> Task :automotive:preReleaseBuild UP-TO-DATE
+> Task :automotive:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:preBuild UP-TO-DATE
+> Task :shared:preReleaseBuild UP-TO-DATE
+> Task :shared:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :automotive:mergeReleaseNativeLibs UP-TO-DATE
+> Task :automotive:stripReleaseDebugSymbols UP-TO-DATE
+> Task :automotive:extractReleaseNativeSymbolTables UP-TO-DATE
+> Task :automotive:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :shared:generateReleaseResources UP-TO-DATE
+> Task :shared:packageReleaseResources UP-TO-DATE
+> Task :shared:processReleaseNavigationResources UP-TO-DATE
+> Task :shared:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:generateReleaseRFile UP-TO-DATE
+> Task :shared:compileReleaseKotlin UP-TO-DATE
+> Task :shared:javaPreCompileRelease UP-TO-DATE
+> Task :shared:compileReleaseJavaWithJavac NO-SOURCE
+> Task :shared:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :shared:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :automotive:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :automotive:generateReleaseResources UP-TO-DATE
+> Task :automotive:packageReleaseResources UP-TO-DATE
+> Task :automotive:processReleaseNavigationResources UP-TO-DATE
+> Task :automotive:parseReleaseLocalResources UP-TO-DATE
+> Task :automotive:generateReleaseRFile UP-TO-DATE
+> Task :shared:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :automotive:compileReleaseKotlin UP-TO-DATE
+> Task :automotive:javaPreCompileRelease UP-TO-DATE
+> Task :automotive:compileReleaseJavaWithJavac NO-SOURCE
+> Task :shared:prepareReleaseArtProfile UP-TO-DATE
+> Task :automotive:mergeReleaseArtProfile UP-TO-DATE
+> Task :shared:writeReleaseAarMetadata UP-TO-DATE
+> Task :automotive:checkReleaseAarMetadata UP-TO-DATE
+> Task :automotive:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :automotive:compileReleaseNavigationResources UP-TO-DATE
+> Task :automotive:mergeReleaseResources UP-TO-DATE
+> Task :automotive:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :automotive:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:processReleaseManifest UP-TO-DATE
+> Task :automotive:processReleaseMainManifest UP-TO-DATE
+> Task :automotive:processReleaseManifest UP-TO-DATE
+> Task :automotive:processReleaseManifestForPackage UP-TO-DATE
+> Task :shared:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :shared:compileReleaseLibraryResources UP-TO-DATE
+> Task :automotive:processReleaseResources UP-TO-DATE
+> Task :shared:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :automotive:expandReleaseArtProfileWildcards UP-TO-DATE
+> Task :automotive:extractProguardFiles UP-TO-DATE
+> Task :automotive:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :automotive:processReleaseJavaRes UP-TO-DATE
+> Task :shared:processReleaseJavaRes UP-TO-DATE
+> Task :automotive:mergeReleaseJavaResource UP-TO-DATE
+> Task :automotive:mergeReleaseStartupProfile UP-TO-DATE
+> Task :automotive:generateReleaseAssets UP-TO-DATE
+> Task :shared:generateReleaseAssets UP-TO-DATE
+> Task :shared:mergeReleaseAssets UP-TO-DATE
+> Task :automotive:mergeReleaseAssets UP-TO-DATE
+> Task :automotive:compressReleaseAssets UP-TO-DATE
+> Task :automotive:extractReleaseVersionControlInfo UP-TO-DATE
+> Task :shared:createFullJarRelease UP-TO-DATE
+> Task :shared:extractProguardFiles UP-TO-DATE
+> Task :shared:generateReleaseLintModel UP-TO-DATE
+> Task :shared:prepareLintJarForPublish UP-TO-DATE
+> Task :automotive:generateReleaseLintVitalReportModel UP-TO-DATE
+> Task :shared:checkReleaseAarMetadata UP-TO-DATE
+> Task :shared:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared:extractReleaseAnnotations UP-TO-DATE
+> Task :shared:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared:mergeReleaseJavaResource UP-TO-DATE
+> Task :shared:syncReleaseLibJars UP-TO-DATE
+> Task :shared:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :shared:lintVitalAnalyzeRelease UP-TO-DATE
+> Task :shared:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :shared:generateReleaseLintVitalModel UP-TO-DATE
+> Task :automotive:collectReleaseDependencies UP-TO-DATE
+> Task :automotive:sdkReleaseDependencyData UP-TO-DATE
+> Task :automotive:writeReleaseAppMetadata UP-TO-DATE
+> Task :automotive:writeReleaseSigningConfigVersions UP-TO-DATE
+> Task :automotive:minifyReleaseWithR8
+> Task :automotive:lintVitalAnalyzeRelease
+> Task :automotive:lintVitalReportRelease
+> Task :automotive:lintVitalRelease
+> Task :automotive:compileReleaseArtProfile UP-TO-DATE
+> Task :automotive:convertShrunkResourcesToBinaryRelease UP-TO-DATE
+> Task :automotive:optimizeReleaseResources UP-TO-DATE
+> Task :automotive:packageRelease UP-TO-DATE
+> Task :automotive:createReleaseApkListingFileRedirect UP-TO-DATE
+> Task :automotive:assembleRelease UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///C:/Users/Austin/Documents/Works/hyundai-pleos/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 32s
+81 actionable tasks: 4 executed, 77 up-to-date

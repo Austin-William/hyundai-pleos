@@ -1,0 +1,9 @@
+com.example.hyundaipleos.shared-pngs-0 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\build\generated\res\pngs\release
+com.example.hyundaipleos.shared-updated_navigation_xml-1 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\build\generated\updated_navigation_xml\release
+com.example.hyundaipleos.shared-mergeReleaseResources-2 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.hyundaipleos.shared-mergeReleaseResources-3 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.hyundaipleos.shared-release-4 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.hyundaipleos.shared-release-5 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\build\intermediates\packaged_res\release\packageReleaseResources
+com.example.hyundaipleos.shared-main-6 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\res
+com.example.hyundaipleos.shared-release-7 C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\release\res
+gradleHome-0 C:\Users\Austin\.gradle

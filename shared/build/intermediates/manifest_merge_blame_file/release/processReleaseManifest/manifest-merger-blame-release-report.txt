@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hyundaipleos.shared" >
+4
+5    <uses-sdk android:minSdkVersion="28" />
+5-->INJECTED
+5-->INJECTED
+6
+7    <uses-permission android:name="pleos.car.permission.CAR_DOORS" />
+7-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:2:5-70
+7-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:2:22-67
+8    <uses-permission android:name="pleos.car.permission.CAR_INFO" />
+8-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:3:5-69
+8-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:3:22-66
+9    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" />
+9-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:4:5-72
+9-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:4:22-69
+10    <uses-permission android:name="pleos.car.permission.CAR_CLIMATE" />
+10-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:5:5-72
+10-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:5:22-69
+11    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+11-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:6:5-70
+11-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:6:22-67
+12    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+12-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:7:5-71
+12-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:7:22-68
+13    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+13-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:8:5-71
+13-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:8:22-68
+14    <uses-permission android:name="pleos.car.permission.CAR_MIRRORS" />
+14-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:9:5-72
+14-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:9:22-69
+15    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />
+15-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:10:5-71
+15-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:10:22-68
+16    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+16-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:11:5-70
+16-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:11:22-67
+17    <uses-permission android:name="pleos.car.permission.CAR_TOLL" />
+17-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:12:5-69
+17-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:12:22-66
+18
+19    <application>
+19-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:14:5-29:19
+20
+21        <!-- Minimum Car API level -->
+22        <meta-data
+22-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:16:9-18:33
+23            android:name="androidx.car.app.minCarApiLevel"
+23-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:17:13-59
+24            android:value="1" />
+24-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:18:13-30
+25
+26        <service
+26-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:20:9-28:19
+27            android:name="com.example.hyundaipleos.shared.MyCarAppService"
+27-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:21:13-75
+28            android:exported="true" >
+28-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:22:13-36
+29            <intent-filter>
+29-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:23:13-27:29
+30                <action android:name="androidx.car.app.CarAppService" />
+30-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:24:17-73
+30-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:24:25-70
+31                <!-- Other categories: NAVIGATION, CHARGING, IOT, ... -->
+32                <category android:name="androidx.car.app.category.POI" />
+32-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:26:17-74
+32-->C:\Users\Austin\Documents\Works\hyundai-pleos\shared\src\main\AndroidManifest.xml:26:27-71
+33            </intent-filter>
+34        </service>
+35    </application>
+36
+37</manifest>

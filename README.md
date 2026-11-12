@@ -51,3 +51,13 @@ On Windows, replace `./gradlew` with `gradlew.bat`. APKs are written to `<module
 ## Pleos setup
 
 The Pleos Maven repository is declared in `settings.gradle.kts`, and the SDK dependency is declared in both app modules. `VehicleDataController` reads vehicle properties, applies supported controls, and collects location for incidents. Live access depends on the permissions granted by the Pleos environment and the features supported by the vehicle.
+
+## Screenshots
+
+<img width="2560" height="1440" alt="a" src="https://github.com/user-attachments/assets/fa3e71ef-3c1f-4d45-b420-d2240a8e25a3" />
+<img width="2560" height="1440" alt="b" src="https://github.com/user-attachments/assets/051b8e26-39bf-4334-a8f8-fd60e657a2c0" />
+<img width="2560" height="1440" alt="c" src="https://github.com/user-attachments/assets/d9bf886d-e2c1-4949-b1f3-03925fea6780" />
+<img width="2560" height="1440" alt="d" src="https://github.com/user-attachments/assets/9a4b6894-bd1a-4fd3-aafd-6185f10573a4" />
+
+
+

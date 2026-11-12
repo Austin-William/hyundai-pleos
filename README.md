@@ -48,6 +48,8 @@ From the project root:
 
 On Windows, replace `./gradlew` with `gradlew.bat`. APKs are written to `<module>/build/outputs/apk/<variant>/`. To distribute an APK to users, create a **signed release** with **Build → Generate Signed Bundle / APK…** in Android Studio and keep the signing key safe.
 
+APK files are located to the folder `/apk`.
+
 ## Pleos setup
 
 The Pleos Maven repository is declared in `settings.gradle.kts`, and the SDK dependency is declared in both app modules. `VehicleDataController` reads vehicle properties, applies supported controls, and collects location for incidents. Live access depends on the permissions granted by the Pleos environment and the features supported by the vehicle.
